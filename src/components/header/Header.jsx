@@ -5,7 +5,7 @@ function Header() {
     return (
       <>
         <StyledHeading>
-             PORTFOLIO 2 
+             PORTFOLIO 1
         </StyledHeading>
       </>     
     );
