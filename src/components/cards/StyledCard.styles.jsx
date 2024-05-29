@@ -27,7 +27,7 @@ export const StyledExamCard = styled.div`
   }
 `
 
-export const StyledLeathaCard = styled.div`
+export const StyledLethaCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
