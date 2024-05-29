@@ -86,7 +86,7 @@ export const StyledProjectButton = styled.button`
 
 `  
 
-export const StyledLeathaButton = styled.button`
+export const StyledLethaButton = styled.button`
 @font-face {
    font-family: 'noveldisplay-mediumxcmp';
    src: url('noveldisplay-mediumxcmp-webfont.woff2') format('woff2'),
