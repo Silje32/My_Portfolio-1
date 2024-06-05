@@ -11,7 +11,7 @@ function ExamButton() {
     return ( 
          <>
            <StyledExamButton $isActive={false} onClick={() => onButtonClick()}>
-               <Link to={"h.p://www.dreambuilder.cloud/Project_Exam/"}>
+               <Link to={"https://master--exam1-spacex.netlify.app"}>
                    Go To Website
                </Link>
             </StyledExamButton>
