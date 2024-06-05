@@ -11,7 +11,7 @@ function LethaButton() {
     return ( 
          <>
            <StyledLethaButton $isActive={false} onClick={() => onButtonClick()}>
-               <Link to={"www.dreambuilder.cloud/Inter_CA/index.html"}>
+               <Link to={"https://master--lethashoes.netlify.app/"}>
                    Go To Website
                </Link>
             </StyledLethaButton>
