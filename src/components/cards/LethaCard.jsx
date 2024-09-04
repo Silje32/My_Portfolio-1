@@ -3,7 +3,7 @@ import Screenshot from "../../images/website_letha.png";
 import { StyledH2 } from "../header/Heading.styles";
 import LethaButton from "../buttons/LethaButton";
 import { StyledLethaCard, StyledLink } from "./StyledCard.styles";
-import { StyledImage } from "./Image.styles";
+import { StyledImage } from "../../images/Image.styles";
 
 
 function LethaCard() {

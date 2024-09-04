@@ -3,7 +3,7 @@ import ProjectButton from "../buttons/ProjectButton";
 import { StyledH2 } from "../header/Heading.styles";
 import Screenshot from "../../images/website_semester-project1.png";
 import { StyledSemesterProjectCard, StyledLink } from "./StyledCard.styles";
-import { StyledImage } from "./Image.styles";
+import { StyledImage } from "../../images/Image.styles";
 
 
 function SemesterProjectCard() {
