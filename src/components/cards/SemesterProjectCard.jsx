@@ -1,6 +1,7 @@
-import ProjectButton from "../buttons/ProjectButton";
 import { Link } from "react-router-dom";
+import ProjectButton from "../buttons/ProjectButton";
 import { StyledH2 } from "../header/Heading.styles";
+import Screenshot from "../../images/website_semester-project1.png";
 import { StyledSemesterProjectCard, StyledLink } from "./StyledCard.styles";
 
 
@@ -14,6 +15,9 @@ function SemesterProjectCard() {
                     SEMESTER PROJECT 1:
                 </StyledH2>
               </div>
+                <div>
+                   <img src={Screenshot}  alt="Screenshot" />;
+                </div>
               <div>
                 <p>
                 An interactive science museum called the Community Science Museum is opening in your 
