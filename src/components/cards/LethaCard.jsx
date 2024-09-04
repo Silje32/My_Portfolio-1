@@ -3,6 +3,7 @@ import Screenshot from "../../images/website_letha.png";
 import { StyledH2 } from "../header/Heading.styles";
 import LethaButton from "../buttons/LethaButton";
 import { StyledLethaCard, StyledLink } from "./StyledCard.styles";
+import { StyledImage } from "./Image.styles";
 
 
 function LethaCard() {
@@ -15,9 +16,9 @@ function LethaCard() {
                     INTERACTION DESIGN CA:
                 </StyledH2>
               </div>
-                <div>
+                <StyledImage>
                    <img src={Screenshot} alt="Screenshot" />;
-                </div>
+                </StyledImage>
               <div>
                   <p>
                     Create the final version of the Letha website and upload it to your web host.
