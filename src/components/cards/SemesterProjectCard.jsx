@@ -3,7 +3,6 @@ import ProjectButton from "../buttons/ProjectButton";
 import { StyledH2 } from "../header/Heading.styles";
 import Screenshot from "../../images/website_semester-project1.png";
 import { StyledSemesterProjectCard, StyledLink } from "./StyledCard.styles";
-import { StyledImage } from "../../images/Image.styles";
 
 
 function SemesterProjectCard() {
@@ -16,9 +15,9 @@ function SemesterProjectCard() {
                     SEMESTER PROJECT 1:
                 </StyledH2>
               </div>
-                <StyledImage>
+                <div>
                    <img src={Screenshot}  alt="Screenshot" />;
-                </StyledImage>
+                </div>
               <div>
                 <p>
                 An interactive science museum called the Community Science Museum is opening in your 
