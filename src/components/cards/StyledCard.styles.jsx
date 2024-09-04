@@ -41,6 +41,7 @@ export const StyledLethaCard = styled.div`
 
    img {
      width: 100%;
+     margin-bottom: 10px;
    }
 
    @media (max-width: ${({ theme }) => theme.mobile}) {
@@ -63,6 +64,7 @@ export const StyledSemesterProjectCard = styled.div`
 
    img {
      width: 100%;
+     margin-bottom: 10px;
    }
 
    @media (max-width: ${({ theme }) => theme.mobile}) {
