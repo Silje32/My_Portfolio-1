@@ -16,7 +16,7 @@ function SemesterProjectCard() {
                 </StyledH2>
               </div>
                 <div>
-                   <img src={Screenshot}  alt="Screenshot" />;
+                   <img src={Screenshot}  alt="Screenshot" />
                 </div>
               <div>
                 <p>
