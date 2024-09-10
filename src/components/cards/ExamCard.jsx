@@ -1,7 +1,8 @@
-import ExamButton from "../buttons/ExamButton";
 import { Link } from "react-router-dom";
+import Screenshot from "../../images/website_project-exam.png";
 import { StyledH2 } from "../header/Heading.styles";
 import { StyledExamCard, StyledLink } from "./StyledCard.styles";
+import ExamButton from "../buttons/ExamButton";
 
 
 function ExamCard() {
@@ -14,6 +15,9 @@ function ExamCard() {
                     PROJECT EXAM 1:
                 </StyledH2>
               </div>
+                <div>
+                   <img src={Screenshot} alt="Screenshot" />
+                </div>
               <div>
                 <p>
                   Create a microsite for SpaceX / NASA that focuses on space technology to raise awareness about 
