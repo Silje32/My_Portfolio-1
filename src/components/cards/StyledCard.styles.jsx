@@ -21,6 +21,11 @@ export const StyledExamCard = styled.div`
    padding: 60px;
    max-width: 600px;
 
+   img {
+     width: 100%;
+     margin-bottom: 10px;
+   }
+
    @media (max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
       text-align: center;
