@@ -29,6 +29,7 @@ export const StyledExamCard = styled.div`
    @media (max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
       text-align: center;
+      width: 100%;
   }
 `
 
@@ -52,6 +53,7 @@ export const StyledLethaCard = styled.div`
    @media (max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
       text-align: center;
+      width: 100%;
   }
 `
 
@@ -75,6 +77,7 @@ export const StyledSemesterProjectCard = styled.div`
    @media (max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
       text-align: center;
+      width: 100%;
   
       p {
          text-align: center;
