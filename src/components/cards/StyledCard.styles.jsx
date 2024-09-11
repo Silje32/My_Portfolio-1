@@ -75,7 +75,11 @@ export const StyledSemesterProjectCard = styled.div`
    @media (max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
       text-align: center;
-  }
+  
+      p {
+         text-align: center;
+      }
+   }     
 `
 
 export const StyledLink = styled.h3`
