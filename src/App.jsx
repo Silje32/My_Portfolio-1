@@ -10,8 +10,9 @@ const theme = {
     body: "#E8E0D1",
     footer: "black",
   },
-  mobile: "768px",
-}
+  mobile: "480px",
+  tablet: "768px",
+}  
 
   
 function App() {
