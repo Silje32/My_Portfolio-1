@@ -31,6 +31,12 @@ export const StyledExamCard = styled.div`
       text-align: center;
       width: 100%;
   }
+
+  @media (max-width: ${({ theme }) => theme.tablet}) {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+  }      
 `
 
 export const StyledLethaCard = styled.div`
@@ -55,6 +61,12 @@ export const StyledLethaCard = styled.div`
       text-align: center;
       width: 100%;
   }
+
+  @media (max-width: ${({ theme }) => theme.tablet}) {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+  }      
 `
 
 export const StyledSemesterProjectCard = styled.div`
@@ -82,7 +94,13 @@ export const StyledSemesterProjectCard = styled.div`
       p {
          text-align: center;
       }
-   }     
+   }
+      
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+  }      
 `
 
 export const StyledLink = styled.h3`
