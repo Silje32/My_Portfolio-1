@@ -93,13 +93,19 @@ export const StyledSemesterProjectCard = styled.div`
   
       p {
          text-align: center;
+         color: red;
       }
    }
       
    @media (max-width: ${({ theme }) => theme.tablet}) {
       flex-direction: column;
       text-align: center;
-      width: 100%;
+      width: 80%;
+
+      p {
+         text-align: center;
+         color: red;
+      }
   }      
 `
 
