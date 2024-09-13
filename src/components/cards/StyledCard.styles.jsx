@@ -77,7 +77,7 @@ export const StyledLethaCard = styled.div`
 
 export const StyledSemesterProjectCard = styled.div`
    display: flex;
-   flex: 1;
+   flex: 2;
    flex-direction: column;
    flex-grow: 1;
    flex-shrink: 0;
