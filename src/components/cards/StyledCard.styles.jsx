@@ -46,6 +46,8 @@ export const StyledLethaCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
+   flex-grow: 0;
+   flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
    border-radius: 5px;
@@ -53,6 +55,7 @@ export const StyledLethaCard = styled.div`
    padding: 60px;
    margin-left: 20px;
    max-width: 600px;
+   height: 800px;
 
    img {
      width: 100%;
@@ -76,6 +79,8 @@ export const StyledSemesterProjectCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
+   flex-grow: 0;
+   flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
    border-radius: 5px;
@@ -83,6 +88,7 @@ export const StyledSemesterProjectCard = styled.div`
    padding: 60px;
    margin-left: 20px;
    max-width: 600px;
+   height: 800px;
 
    img {
      width: 100%;
@@ -123,6 +129,5 @@ export const StyledLink = styled.h3`
    a:hover {
            color: #4BA69D; 
    }
-
 `;
 
