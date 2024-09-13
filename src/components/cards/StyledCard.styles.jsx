@@ -113,14 +113,14 @@ export const StyledSemesterProjectCard = styled.div`
 
       p {
          text-align: center;
-         color: red;
+         color: black;
       }
   }      
 `
 
 export const StyledLink = styled.h3`
    font-size: 18px;
-   margin: 15px 0px;
+   margin: 15px 5px;
 
    a {
       color: #B76E79;
