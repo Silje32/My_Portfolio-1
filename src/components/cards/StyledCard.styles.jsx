@@ -79,7 +79,7 @@ export const StyledSemesterProjectCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
-   flex-grow: 0;
+   flex-grow: 1;
    flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
