@@ -9,13 +9,13 @@ const GlobalStyles = createGlobalStyle`
       @media (max-width: ${({ theme }) => theme.mobile}) {
         flex-direction: column;
         text-align: center;
-        width: 80%;
+        width: 100%;
       }
 
       @media (max-width: ${({ theme }) => theme.tablet}) {
         flex-direction: column;
         text-align: center;
-        width: 80%;
+        width: 100%;
       }      
 
     }
