@@ -13,7 +13,7 @@ export const StyledCard = styled.div`
 export const StyledExamCard = styled.div`
    display: flex;
    flex: 1;
-   flex-direction: column;
+   flex-direction: row;
    flex-grow: 1;
    flex-shrink: 0;
    align-items: center;
@@ -45,7 +45,7 @@ export const StyledExamCard = styled.div`
 export const StyledLethaCard = styled.div`
    display: flex;
    flex: 1;
-   flex-direction: column;
+   flex-direction: row;
    flex-grow: 1;
    flex-shrink: 0;
    align-items: center;
@@ -78,7 +78,7 @@ export const StyledLethaCard = styled.div`
 export const StyledSemesterProjectCard = styled.div`
    display: flex;
    flex: 2;
-   flex-direction: column;
+   flex-direction: row;
    flex-grow: 1;
    flex-shrink: 0;
    align-items: center;
