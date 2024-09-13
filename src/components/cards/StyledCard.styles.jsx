@@ -20,7 +20,7 @@ export const StyledExamCard = styled.div`
    border-color: 2px black;
    padding: 60px;
    max-width: 600px;
-   height: 500px;
+   max-height: 1000px;
 
    img {
      width: 100%;
