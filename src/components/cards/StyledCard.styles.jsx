@@ -88,7 +88,7 @@ export const StyledSemesterProjectCard = styled.div`
    padding: 60px;
    margin-left: 20px;
    max-width: 2000px;
-   height: 1100px;
+   height: 1000px;
 
    img {
      width: 100%;
