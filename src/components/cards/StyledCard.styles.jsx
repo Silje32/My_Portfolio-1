@@ -77,7 +77,7 @@ export const StyledLethaCard = styled.div`
 
 export const StyledSemesterProjectCard = styled.div`
    display: flex;
-   flex: 2;
+   flex: 1;
    flex-direction: column;
    flex-grow: 1;
    flex-shrink: 0;
@@ -88,7 +88,7 @@ export const StyledSemesterProjectCard = styled.div`
    padding: 60px;
    margin-left: 20px;
    max-width: 2000px;
-   height: 1000px;
+   height: 900px;
 
    img {
      width: 100%;
@@ -102,7 +102,7 @@ export const StyledSemesterProjectCard = styled.div`
   
       p {
          text-align: center;
-         color: red;
+         color: black;
       }
    }
       
