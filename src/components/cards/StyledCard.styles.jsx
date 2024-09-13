@@ -59,7 +59,7 @@ export const StyledLethaCard = styled.div`
    @media (max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
       text-align: center;
-      width: 100%;
+      width: 50%;
   }
 
   @media (max-width: ${({ theme }) => theme.tablet}) {
