@@ -12,11 +12,13 @@ export const StyledCard = styled.div`
    @media (max-width: ${({ theme }) => theme.mobile}) {
         flex-direction: column;
         text-align: center;
+        margin-bottom: 5px;
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
         flex-direction: column;
         text-align: center;
+        margin-bottom: 5px;
    }      
 `
 
