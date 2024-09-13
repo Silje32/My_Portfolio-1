@@ -16,13 +16,13 @@ const GlobalStyles = createGlobalStyle`
       @media (max-width: ${({ theme }) => theme.mobile}) {
         flex-direction: column;
         text-align: center;
-        width: 100%;
+        width: 50%;
       }
 
       @media (max-width: ${({ theme }) => theme.tablet}) {
         flex-direction: column;
         text-align: center;
-        width: 100%;
+        width: 50%;
       }      
     }
 `;
