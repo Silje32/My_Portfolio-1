@@ -14,13 +14,15 @@ export const StyledExamCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
+   flex-grow: 0;
+   flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
    border-radius: 5px;
    border-color: 2px black;
    padding: 60px;
    max-width: 600px;
-   max-height: 2000px;
+   height: 2000px;
 
    img {
      width: 100%;
