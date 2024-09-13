@@ -5,14 +5,7 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
-
-    body {
-        background-color: ${({ theme }) => theme.colors.body};
-        font-size: 15px;
-        color: black;
-        flex-grow: 1;
-
+    
       @media (max-width: ${({ theme }) => theme.mobile}) {
         flex-direction: column;
         text-align: center;
@@ -24,6 +17,14 @@ const GlobalStyles = createGlobalStyle`
         text-align: center;
         width: 50%;
       }      
+
+    }
+
+    body {
+        background-color: ${({ theme }) => theme.colors.body};
+        font-size: 15px;
+        color: black;
+        flex-grow: 1;
     }
 `;
 
