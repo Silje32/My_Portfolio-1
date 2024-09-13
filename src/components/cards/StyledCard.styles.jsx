@@ -8,6 +8,18 @@ export const StyledCard = styled.div`
    background-color: #E8E0D1;
    border-radius: 5px;
    padding: 60px;
+
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+   }      
 `
 
 export const StyledExamCard = styled.div`
@@ -28,18 +40,6 @@ export const StyledExamCard = styled.div`
      width: 100%;
      margin-bottom: 10px;
    }
-
-   @media (max-width: ${({ theme }) => theme.mobile}) {
-      flex-direction: column;
-      text-align: center;
-      width: 100%;
-  }
-
-  @media (max-width: ${({ theme }) => theme.tablet}) {
-      flex-direction: column;
-      text-align: center;
-      width: 100%;
-  }      
 `
 
 export const StyledLethaCard = styled.div`
@@ -60,19 +60,7 @@ export const StyledLethaCard = styled.div`
    img {
      width: 100%;
      margin-bottom: 10px;
-   }
-
-   @media (max-width: ${({ theme }) => theme.mobile}) {
-      flex-direction: column;
-      text-align: center;
-      width: 50%;
-  }
-
-  @media (max-width: ${({ theme }) => theme.tablet}) {
-      flex-direction: column;
-      text-align: center;
-      width: 100%;
-  }      
+   }    
 `
 
 export const StyledSemesterProjectCard = styled.div`
@@ -93,29 +81,7 @@ export const StyledSemesterProjectCard = styled.div`
    img {
      width: 100%;
      margin-bottom: 10px;
-   }
-
-   @media (max-width: ${({ theme }) => theme.mobile}) {
-      flex-direction: column;
-      text-align: center;
-      width: 100%;
-  
-      p {
-         text-align: center;
-         color: black;
-      }
-   }
-      
-   @media (max-width: ${({ theme }) => theme.tablet}) {
-      flex-direction: column;
-      text-align: center;
-      width: 80%;
-
-      p {
-         text-align: center;
-         color: black;
-      }
-  }      
+   }      
 `
 
 export const StyledLink = styled.h3`
