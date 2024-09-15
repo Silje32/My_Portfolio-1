@@ -64,7 +64,15 @@ export const StyledLethaCard = styled.div`
    img {
      width: 100%;
      margin-bottom: 10px;
-   }    
+   }
+     
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        margin-bottom: 20px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 20px;
+   }      
 `
 
 export const StyledSemesterProjectCard = styled.div`
@@ -83,6 +91,14 @@ export const StyledSemesterProjectCard = styled.div`
    img {
      width: 100%;
      margin-bottom: 10px;
+   } 
+     
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        margin-bottom: 20px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 20px;
    }      
 `
 
