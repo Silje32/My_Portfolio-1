@@ -28,8 +28,6 @@ export const StyledExamCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
-   flex-grow: 1;
-   flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
    border-radius: 5px;
@@ -48,8 +46,6 @@ export const StyledLethaCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
-   flex-grow: 1;
-   flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
    border-radius: 5px;
@@ -69,8 +65,6 @@ export const StyledSemesterProjectCard = styled.div`
    display: flex;
    flex: 1;
    flex-direction: column;
-   flex-grow: 1;
-   flex-shrink: 0;
    align-items: center;
    background-color: #F6F6F1;
    border-radius: 5px;
