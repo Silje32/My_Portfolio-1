@@ -119,5 +119,14 @@ export const StyledLink = styled.h3`
    a:hover {
            color: #4BA69D; 
    }
+
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+     font-size: 20px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+      font-size: 20px;
+   }      
+
 `;
 
