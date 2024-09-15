@@ -40,11 +40,11 @@ export const StyledExamCard = styled.div`
    }
 
    @media (max-width: ${({ theme }) => theme.mobile}) {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
    }      
 `
 
