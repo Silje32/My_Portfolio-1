@@ -55,6 +55,14 @@ export const StyledExamButton = styled.button`
       color: ${(props) => (props.$isActive ? "blue" : "white")};
    }
 
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        margin-bottom: 20px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 20px;
+   }      
+
 `
 
 export const StyledProjectButton = styled.button`
@@ -83,6 +91,14 @@ export const StyledProjectButton = styled.button`
       text-decoration: none;
       color: ${(props) => (props.$isActive ? "blue" : "white")};
    }
+
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        margin-bottom: 20px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 20px;
+   }      
 
 `  
 
@@ -113,5 +129,15 @@ export const StyledLethaButton = styled.button`
       text-decoration: none;
       color: ${(props) => (props.$isActive ? "blue" : "white")};
    }
+
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        margin-bottom: 20px;
+        min-width: 300px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 20px;
+        min-width: 300px;
+   }      
    
 `;
