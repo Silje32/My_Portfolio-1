@@ -31,7 +31,7 @@ export const StyledExamCard = styled.div`
    border-radius: 5px;
    border-color: 2px black;
    padding: 60px;
-   max-width: 600px;
+   max-width: 2000px;
    height: 600px;
 
    img {
@@ -58,7 +58,7 @@ export const StyledLethaCard = styled.div`
    border-color: 2px black;
    padding: 60px;
    margin-left: 20px;
-   max-width: 600px;
+   max-width: 2000px;
    height: 600px;
 
    img {
