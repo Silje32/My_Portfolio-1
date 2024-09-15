@@ -38,6 +38,14 @@ export const StyledExamCard = styled.div`
      width: 100%;
      margin-bottom: 10px;
    }
+
+   @media (max-width: ${({ theme }) => theme.mobile}) {
+        margin-bottom: 10px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 10px;
+   }      
 `
 
 export const StyledLethaCard = styled.div`
