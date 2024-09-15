@@ -57,10 +57,13 @@ export const StyledExamButton = styled.button`
 
    @media (max-width: ${({ theme }) => theme.mobile}) {
         margin-bottom: 20px;
+        min-width: 300px;
+
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
         margin-bottom: 20px;
+        min-width: 300px;
    }      
 
 `
@@ -94,10 +97,14 @@ export const StyledProjectButton = styled.button`
 
    @media (max-width: ${({ theme }) => theme.mobile}) {
         margin-bottom: 20px;
+        min-width: 300px;
+
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
         margin-bottom: 20px;
+        min-width: 300px;
+
    }      
 
 `  
