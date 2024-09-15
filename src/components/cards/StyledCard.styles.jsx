@@ -40,11 +40,13 @@ export const StyledExamCard = styled.div`
    }
 
    @media (max-width: ${({ theme }) => theme.mobile}) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      max-width: 1000px;
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      max-width: 1000px;
    }      
 `
 
@@ -67,11 +69,13 @@ export const StyledLethaCard = styled.div`
    }
      
    @media (max-width: ${({ theme }) => theme.mobile}) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      max-width: 1000px;
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      max-width: 1000px;
    }      
 `
 
@@ -94,11 +98,13 @@ export const StyledSemesterProjectCard = styled.div`
    } 
      
    @media (max-width: ${({ theme }) => theme.mobile}) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      max-width: 1000px;
    }
 
    @media (max-width: ${({ theme }) => theme.tablet}) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      max-width: 1000px;
    }      
 `
 
