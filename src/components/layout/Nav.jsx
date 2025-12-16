@@ -6,7 +6,8 @@ function Nav() {
     <div>
       <ul>
         <li>
-          <NavLink to="/">HOME</NavLink>
+          <NavLink to="/">Frontend Projects</NavLink>
+          <NavLink to="/backend">Backend Projects</NavLink>
         </li>
       </ul>
     </div>
