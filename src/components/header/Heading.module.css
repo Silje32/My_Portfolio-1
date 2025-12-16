@@ -1,8 +1,5 @@
-import styled from 'styled-components';
-
-export const StyledHeading = styled.h1`
+.h1 {
   color: black;
-  background-color: ${({ theme }) => theme.colors.header};
   font-family: haboro-serif, serif;
   font-style: normal;
   font-weight: 700;
@@ -11,9 +8,9 @@ export const StyledHeading = styled.h1`
   flex-shrink: 0;
   text-align: center;
   padding: 20px;
-`
+}
 
-export const StyledH2 = styled.h2`
+.h2 {
   color: black;
   padding: 5px;
   font-family: haboro-serif, serif;
@@ -23,6 +20,4 @@ export const StyledH2 = styled.h2`
   flex-grow: 0;
   flex-shrink: 0;
   text-align: center;
-`
-;
-
+}
