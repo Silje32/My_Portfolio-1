@@ -1,8 +1,6 @@
-import styled from 'styled-components';
-
-export const StyledFooter = styled.footer`
+.footer {
   color: white;
-  background-color: ${({ theme }) => theme.colors.footer};
+  background-color: var(--black);
   font-family: haboro-serif, serif;
   font-style: normal;
   font-weight: 500;
@@ -14,4 +12,4 @@ export const StyledFooter = styled.footer`
   text-align: right;
   padding: 20px;
   height: 100px;
-`;
+}

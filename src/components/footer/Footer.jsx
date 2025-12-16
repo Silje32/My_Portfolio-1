@@ -1,14 +1,11 @@
-import { StyledFooter } from "./Footer.styles";
+import styles from "./Footer.module.css";
 
 function Footer() {
-  
-    return (
-      <>
-        <StyledFooter>
-           <h4>BACK TO TOP</h4>
-        </StyledFooter>
-      </>
-    );
+  return (
+    <div>
+      <h4>BACK TO TOP</h4>
+    </div>
+  );
 }
 
-export default Footer;  
+export default Footer;
