@@ -1,5 +1,6 @@
 :root {
-  --red: rgb(139, 26, 6);
+  --color-hover: rgb(75, 166, 157);
+  --background-color-btn: rgb(183, 110, 121);
   --steel: rgb(88, 92, 99);
   --white: rgb(249, 249, 249);
   --black: rgb(18, 18, 18);
