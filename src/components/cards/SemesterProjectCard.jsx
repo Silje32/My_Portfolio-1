@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import ProjectButton from "../buttons/ProjectButton";
 import Screenshot from "../../images/website_semester-project1.png";
-import { StyledSemesterProjectCard, StyledLink } from "./StyledCard.styles";
 import styles from "../header/Heading.module.css";
+import styles from "../cards/StyledCards.module.css";
 
 function SemesterProjectCard() {
   return (
     <>
-      <StyledSemesterProjectCard>
+      <div className={styles.SemesterProjectCard}>
         <div>
           <h2>SEMESTER PROJECT 1:</h2>
         </div>
@@ -28,15 +28,16 @@ function SemesterProjectCard() {
             use on a variety of devices.
           </p>
         </div>
-        <StyledLink>
-          <Link to={"https://github.com/Silje32/Semester_project.git"}>
-            VIEW GITHUB REPOSITORY
-          </Link>
-        </StyledLink>
+        <Link
+          className={styles.link}
+          to={"https://github.com/Silje32/Semester_project.git"}
+        >
+          VIEW GITHUB REPOSITORY
+        </Link>
         <div>
           <ProjectButton />
         </div>
-      </StyledSemesterProjectCard>
+      </div>
     </>
   );
 }

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import Screenshot from "../../images/website_project-exam.png";
-import { StyledExamCard, StyledLink } from "./StyledCard.styles";
 import ExamButton from "../buttons/ExamButton";
 import styles from "../header/Heading.module.css";
+import styles from "../cards/StyledCards.module.css";
 
 function ExamCard() {
   return (
     <>
-      <StyledExamCard>
+      <div className={styles.ExamCard}>
         <div>
           <h2>PROJECT EXAM 1:</h2>
         </div>
@@ -21,15 +21,16 @@ function ExamCard() {
             the world.
           </p>
         </div>
-        <StyledLink>
-          <Link to={"https://github.com/Silje32/Project_Exam_SpaceX"}>
-            VIEW GITHUB REPOSITORY
-          </Link>
-        </StyledLink>
+        <Link
+          className={styles.link}
+          to={"https://github.com/Silje32/Project_Exam_SpaceX"}
+        >
+          VIEW GITHUB REPOSITORY
+        </Link>
         <div>
           <ExamButton />
         </div>
-      </StyledExamCard>
+      </div>
     </>
   );
 }
