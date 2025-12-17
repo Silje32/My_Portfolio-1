@@ -1,10 +1,11 @@
 :root {
   --color-hover: rgb(75, 166, 157);
   --background-color-btn: rgb(183, 110, 121);
+  --background-color-card: rgb(246, 246, 241);
+  --background-color: rgb(232, 224, 209);
   --steel: rgb(88, 92, 99);
   --white: rgb(249, 249, 249);
   --black: rgb(18, 18, 18);
-  --dark-beige: rgb(232, 224, 209);
   --font-family: "Arial, sans-serif";
   --font-size: 16px;
 }
