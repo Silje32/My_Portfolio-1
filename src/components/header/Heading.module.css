@@ -1,6 +1,6 @@
 .h1 {
   color: black;
-  font-family: haboro-serif, serif;
+  font-family: "haboro-serif", "serif";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -13,11 +13,14 @@
 .h2 {
   color: black;
   padding: 5px;
-  font-family: haboro-serif, serif;
+  font-family: "haboro-serif", "serif";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   flex-grow: 0;
   flex-shrink: 0;
   text-align: center;
+}
+.container {
+  background-color: "#E8E0D1";
 }
