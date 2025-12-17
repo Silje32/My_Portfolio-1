@@ -1,0 +1,25 @@
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 25px 10px;
+  min-width: 1470px;
+  cursor: pointer;
+  background-color: "white";
+}
+
+ul li {
+  font-size: 18px;
+  font-family: "haboro-serif", "times new roman", "serif";
+  font-style: normal;
+  text-align: right;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+a {
+  color: "grey";
+}
+
+a:hover {
+  color: #4ba69d;
+}
