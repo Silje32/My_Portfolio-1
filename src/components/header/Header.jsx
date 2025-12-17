@@ -2,7 +2,7 @@ import styles from "./Heading.module.css";
 
 function Header() {
   return (
-    <div className={styles.heading}>
+    <div className={styles.container}>
       <h1>PORTFOLIO 1</h1>
     </div>
   );
