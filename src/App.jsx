@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+import Frontend from "./pages/Frontend";
 import Backend from "./pages/Backend";
 import Layout from "./components/layout/Layout";
 import styles from "./styles/Global.css";
@@ -9,8 +9,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />} />
-        <Route index element={<Home />} />
-        <Route path="home" element={<Home />} />
+        <Route index element={<Frontend />} />
+        <Route path="frontend" element={<Frontend />} />
         <Route path="/backend" element={<Layout />}>
           <Route index element={<Backend />} />
           <Route path="backend" element={<Backend />} />
