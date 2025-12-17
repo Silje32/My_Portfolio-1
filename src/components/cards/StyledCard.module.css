@@ -1,0 +1,76 @@
+.Card {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--background-color-card);
+  border-radius: 5px;
+  padding: 60px;
+}
+
+.ExamCard {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color-card);
+  border-radius: 5px;
+  border-color: 2px var(--black);
+  padding: 60px;
+  max-width: 2000px;
+  height: 600px;
+}
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.LethaCard {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color-card);
+  border-radius: 5px;
+  border-color: 2px var(--black);
+  padding: 60px;
+  margin-left: 20px;
+  max-width: 2000px;
+  height: 600px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.SemesterProjectCard {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color-card);
+  border-radius: 5px;
+  border-color: 2px var(--black);
+  padding: 60px;
+  margin-left: 20px;
+  max-width: 2000px;
+  height: 900px;
+}
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.link {
+  font-size: 18px;
+  margin: 15px 5px;
+}
+
+a {
+  color: #b76e79;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
