@@ -1,5 +1,5 @@
 .h1 {
-  color: black;
+  color: var(--black);
   font-family: "haboro-serif", "serif";
   font-style: normal;
   font-weight: 700;
@@ -11,7 +11,7 @@
 }
 
 .h2 {
-  color: black;
+  color: var(--black);
   padding: 5px;
   font-family: "haboro-serif", "serif";
   font-style: normal;
@@ -22,5 +22,5 @@
   text-align: center;
 }
 .container {
-  background-color: "#E8E0D1";
+  background-color: var(--background-color);
 }
