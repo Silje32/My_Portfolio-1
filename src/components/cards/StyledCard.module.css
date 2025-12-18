@@ -68,9 +68,21 @@ img {
 }
 
 a {
-  color: #b76e79;
+  color: var(--background-color-btn);
 }
 
 a:hover {
   color: var(--hover-color);
+}
+
+.heading {
+  color: var(--black);
+  padding: 5px;
+  font-family: "haboro-serif", "serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
 }
