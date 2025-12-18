@@ -16,7 +16,7 @@ ul li {
   background-color: var(--white);
 }
 
-a:link {
+li a:link {
   color: var(background-color-btn);
 }
 
