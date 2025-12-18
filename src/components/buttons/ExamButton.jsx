@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { StyledExamButton } from "./Buttons.styles";
+import styles from "./buttons/Buttons.module.css";
 
 function ExamButton() {
 
@@ -10,11 +10,10 @@ function ExamButton() {
 
     return ( 
          <>
-           <StyledExamButton $isActive={false} onClick={() => onButtonClick()}>
+           <button className={styles.exambutton} onClick={() => onButtonClick()}>
                <Link to={"https://master--exam1-spacex.netlify.app"}>
                    Go To Website
                </Link>
-            </StyledExamButton>
          </>
     );
 }
