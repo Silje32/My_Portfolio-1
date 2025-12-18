@@ -1,13 +1,12 @@
-.button 
+.button {
   @font-face {
     font-family: "noveldisplay-mediumxcmp";
     src:
       url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
       url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
   {
+  font-weight: normal;
+  font-style: normal;
   padding: 10px 20px;
   font-size: 22px;
   min-width: 200px;
@@ -26,17 +25,18 @@
     opacity: 0.9;
     transform: scale(0.98);
   }
+}
+}
 
-.exambutton 
+.exambutton {
   @font-face {
     font-family: "noveldisplay-mediumxcmp";
     src:
       url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
       url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  {
+  {    
+  font-weight: normal;
+  font-style: normal;
   padding: 20px 15px;
   font-size: 22px;
   min-width: 200px;
@@ -56,18 +56,19 @@
     text-decoration: none;
     color: var(--white);
   }
+}
+}
 
 
-.lethabutton
+.lethabutton {
   @font-face {
     font-family: "noveldisplay-mediumxcmp";
     src:
       url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
       url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  {
+  {    
+  font-weight: normal;
+  font-style: normal;
   padding: 20px 15px;
   font-size: 22px;
   min-width: 200px;
@@ -87,18 +88,19 @@
     text-decoration: none;
     color: var(--white);
   }
+}
+}
 
 
-.projectbutton
+.projectbutton {
   @font-face {
     font-family: "noveldisplay-mediumxcmp";
     src:
       url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
       url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
   {
+  font-weight: normal;
+  font-style: normal;
   padding: 20px 15px;
   font-size: 22px;
   min-width: 200px;
@@ -119,5 +121,7 @@
     text-decoration: none;
     color: var(--white);
   }
+}
+}
 
 
