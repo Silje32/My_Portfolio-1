@@ -10,7 +10,7 @@
 
 ### Built With :
 
-React + Vite and Styled Components
+React + Vite and CSS Modules
 
 #### Getting Started :
 
