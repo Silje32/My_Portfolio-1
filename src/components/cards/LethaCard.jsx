@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import Screenshot from "../../images/website_letha.png";
 import LethaButton from "../buttons/LethaButton";
-import styles from "../header/Heading.module.css";
-import styles from "../cards/StyledCards.module.css";
+import styles from "../cards/StyledCard.module.css";
 
 function LethaCard() {
   return (
     <>
       <div className={styles.LethaCard}>
         <div>
-          <h2>INTERACTION DESIGN CA:</h2>
+          <h2 className={styles.heading}>INTERACTION DESIGN CA:</h2>
         </div>
         <div>
           <img src={Screenshot} alt="Screenshot" />
