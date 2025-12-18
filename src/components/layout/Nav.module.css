@@ -4,7 +4,6 @@
   padding: 25px 10px;
   min-width: 1470px;
   cursor: pointer;
-  background-color: "white";
 }
 
 ul li {
@@ -14,12 +13,13 @@ ul li {
   text-align: right;
   font-weight: 500;
   margin: 0 auto;
+  background-color: var(--white);
 }
 
 a {
-  color: "grey";
+  color: var(background-color-btn);
 }
 
 a:hover {
-  color: #4ba69d;
+  color: var(--color-hover);
 }
