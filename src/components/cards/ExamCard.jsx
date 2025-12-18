@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import Screenshot from "../../images/website_project-exam.png";
 import ExamButton from "../buttons/ExamButton";
-import styles from "../header/Heading.module.css";
-import styles from "../cards/StyledCards.module.css";
+import styles from "../cards/StyledCard.module.css";
 
 function ExamCard() {
   return (
     <>
       <div className={styles.ExamCard}>
         <div>
-          <h2>PROJECT EXAM 1:</h2>
+          <h2 className={styles.heading}>PROJECT EXAM 1:</h2>
         </div>
         <div>
           <img src={Screenshot} alt="Screenshot" />
