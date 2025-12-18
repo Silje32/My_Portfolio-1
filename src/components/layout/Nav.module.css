@@ -16,10 +16,15 @@ ul li {
   background-color: var(--white);
 }
 
-li a:link {
+.navlink {
   color: var(background-color-btn);
 }
 
-a:hover {
+.navlink:hover {
   color: var(--color-hover);
+}
+.nav {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
 }

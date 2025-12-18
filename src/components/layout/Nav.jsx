@@ -3,14 +3,16 @@ import styles from "./Nav.module.css";
 
 function Nav() {
   return (
-    <div>
-      <ul>
-        <li>
-          <NavLink to="/">Frontend Projects</NavLink>
-          <NavLink to="/backend">Backend Projects</NavLink>
-        </li>
-      </ul>
-    </div>
+    <>
+      <nav>
+        <NavLink to="/" className={styles.navlink}>
+          Frontend Projects
+        </NavLink>
+        <NavLink to="/backend" className={styles.navlink}>
+          Backend Projects
+        </NavLink>
+      </nav>
+    </>
   );
 }
 
