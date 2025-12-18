@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import ProjectButton from "../buttons/ProjectButton";
 import Screenshot from "../../images/website_semester-project1.png";
-import styles from "../header/Heading.module.css";
-import styles from "../cards/StyledCards.module.css";
+import styles from "../cards/StyledCard.module.css";
 
 function SemesterProjectCard() {
   return (
     <>
       <div className={styles.SemesterProjectCard}>
         <div>
-          <h2>SEMESTER PROJECT 1:</h2>
+          <h2 className={styles.heading}>SEMESTER PROJECT 1:</h2>
         </div>
         <div>
           <img src={Screenshot} alt="Screenshot" />
