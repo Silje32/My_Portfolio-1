@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom";
-import { StyledProjectButton } from "./Buttons.styles";
+import styles from "./buttons/Buttons.module.css";
 
 function ProjectButton() {
+  function onButtonClick() {}
 
-    function onButtonClick() {
-        
-    }
-    
-
-    return ( 
-         <>
-           <StyledProjectButton $isActive={false} onClick={() => onButtonClick()}>
-               <Link to={"https://master--semesterproject1-community-museum.netlify.app"}>
-                  Go To Website
-               </Link>
-            </StyledProjectButton>
-         </>
-    );
+  return (
+    <>
+      <button
+        className={styles.projectbutton}
+        onClick={(event) => onButtonClick()}
+      >
+        <Link
+          to={"https://master--semesterproject1-community-museum.netlify.app"}
+        >
+          Go To Website
+        </Link>
+      </button>
+    </>
+  );
 }
 
 export default ProjectButton;

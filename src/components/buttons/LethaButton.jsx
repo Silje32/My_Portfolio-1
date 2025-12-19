@@ -1,22 +1,21 @@
 import { Link } from "react-router-dom";
-import { StyledLethaButton } from "./Buttons.styles";
+import styles from "./buttons/Buttons.module.css";
 
 function LethaButton() {
+  function onButtonClick() {}
 
-    function onButtonClick() {
-        
-    }
-    
-
-    return ( 
-         <>
-           <StyledLethaButton $isActive={false} onClick={() => onButtonClick()}>
-               <Link to={"https://master--lethashoes.netlify.app/"}>
-                   Go To Website
-               </Link>
-            </StyledLethaButton>
-         </>
-    );
+  return (
+    <>
+      <button
+        className={styles.lethabutton}
+        onClick={(event) => onButtonClick()}
+      >
+        <Link to={"https://master--lethashoes.netlify.app/"}>
+          Go To Website
+        </Link>
+      </button>
+    </>
+  );
 }
 
 export default LethaButton;
