@@ -44,7 +44,7 @@ img {
   margin-bottom: 10px;
 }
 
-.SemesterProjectCard {
+.SemesterProjectCard .NextCard {
   display: flex;
   flex: 1;
   flex-direction: column;
