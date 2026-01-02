@@ -4,7 +4,7 @@ import styles from "../cards/StyledCard.module.css";
 function CsharpCard() {
   return (
     <>
-      <div className={styles.csharpCard}>
+      <div className={styles.CsharpCard}>
         <div>
           <h2 className={styles.heading}>MY FIRST LIBRARY:</h2>
         </div>
