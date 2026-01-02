@@ -1,13 +1,13 @@
-import ExamCard from "../components/cards/ExamCard";
-import SemesterProjectCard from "../components/cards/SemesterProjectCard";
-import LethaCard from "../components/cards/LethaCard";
+import NodeCard from "../components/cards/NodeCard";
+import NextCard from "../components/cards/NextCard";
+import CsharpCard from "../components/cards/CsharpCard";
 
 function Backend() {
   return (
     <>
-      <ExamCard />
-      <SemesterProjectCard />
-      <LethaCard />
+      <NodeCard />
+      <NextCard />
+      <CsharpCard />
     </>
   );
 }
