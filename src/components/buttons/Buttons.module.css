@@ -1,10 +1,4 @@
 .button {
-  @font-face {
-    font-family: "noveldisplay-mediumxcmp";
-    src:
-      url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
-      url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-  {
   font-weight: normal;
   font-style: normal;
   padding: 10px 20px;
@@ -13,28 +7,20 @@
   cursor: pointer;
   color: var(--white);
   background-color: var(--background-color-btn);
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--white);
-  }
-
-  a:hover {
-    background-color: var (--color-hover);
-    opacity: 0.9;
-    transform: scale(0.98);
-  }
 }
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  background-color: var (--color-hover);
+  opacity: 0.9;
+  transform: scale(0.98);
 }
 
 .exambutton {
-  @font-face {
-    font-family: "noveldisplay-mediumxcmp";
-    src:
-      url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
-      url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-  {    
   font-weight: normal;
   font-style: normal;
   padding: 20px 15px;
@@ -44,29 +30,20 @@
   cursor: pointer;
   color: var(--white);
   background-color: var(--background-color-btn);
-  }
-
-  &:hover {
-    background-color: var(--color-hover);
-    opacity: 0.9;
-    transform: scale(0.98);
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--white);
-  }
-}
 }
 
+&:hover {
+  background-color: var(--color-hover);
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
 
 .lethabutton {
-  @font-face {
-    font-family: "noveldisplay-mediumxcmp";
-    src:
-      url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
-      url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-  {    
   font-weight: normal;
   font-style: normal;
   padding: 20px 15px;
@@ -74,31 +51,22 @@
   min-width: 200px;
   margin-top: 10px;
   cursor: pointer;
-  color: var(--white); 
+  color: var(--white);
   background-color: var(--background-color-btn);
-  }
-
-  &:hover {
-    background-color: var(--color-hover);
-    opacity: 0.9;
-    transform: scale(0.98);
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--white);
-  }
-}
 }
 
+&:hover {
+  background-color: var(--color-hover);
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
 
 .projectbutton {
-  @font-face {
-    font-family: "noveldisplay-mediumxcmp";
-    src:
-      url("noveldisplay-mediumxcmp-webfont.woff2") format("woff2"),
-      url("noveldisplay-mediumxcmp-webfont.woff") format("woff");
-  {
   font-weight: normal;
   font-style: normal;
   padding: 20px 15px;
@@ -109,23 +77,15 @@
   border-color: var(--black);
   color: var(--white);
   background-color: var(--background-color-btn);
-  }
-
-  &:hover {
-    background-color: var(--color-hover);
-    opacity: 0.9;
-    transform: scale(0.98);
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--white);
-  }
-}
 }
 
+&:hover {
+  background-color: var(--color-hover);
+  opacity: 0.9;
+  transform: scale(0.98);
+}
 
-  
-
-
-
+a {
+  text-decoration: none;
+  color: var(--white);
+}
