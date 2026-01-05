@@ -1,4 +1,4 @@
-import styles from "../buttons/Buttons.module.css";
+import styles from "./Buttons.module.css";
 
 function NodeButton() {
   return (
