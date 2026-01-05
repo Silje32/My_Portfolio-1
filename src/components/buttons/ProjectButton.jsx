@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "../buttons/Buttons.module.css";
+import styles from "./Buttons.module.css";
 
 function ProjectButton() {
   function onButtonClick() {}
