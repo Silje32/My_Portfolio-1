@@ -6,7 +6,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import FrontendPage from "./pages/Frontend.jsx";
 import BackendPage from "./pages/Backend.jsx";
-
+import "./Global.css";
 const router = createBrowserRouter([
   {
     path: "/",
