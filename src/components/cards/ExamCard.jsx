@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Screenshot from "../../images/website_project-exam.png";
 import ExamButton from "../buttons/ExamButton";
-import styles from "../cards/StyledCard.module.css";
+import styles from "./StyledCard.module.css";
 
 function ExamCard() {
   return (

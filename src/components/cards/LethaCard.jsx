@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Screenshot from "../../images/website_letha.png";
 import LethaButton from "../buttons/LethaButton";
-import styles from "../cards/StyledCard.module.css";
+import styles from "./StyledCard.module.css";
 
 function LethaCard() {
   return (

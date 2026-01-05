@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "../cards/StyledCard.module.css";
+import styles from "./StyledCard.module.css";
 
 function CsharpCard() {
   return (

@@ -1,4 +1,4 @@
-import styles from "../cards/StyledCard.module.css";
+import styles from "./StyledCard.module.css";
 
 function NextCard() {
   return (

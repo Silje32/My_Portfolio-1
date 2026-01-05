@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import ProjectButton from "../buttons/ProjectButton";
 import Screenshot from "../../images/website_semester-project1.png";
-import styles from "../cards/StyledCard.module.css";
+import styles from "./StyledCard.module.css";
 
 function SemesterProjectCard() {
   return (
