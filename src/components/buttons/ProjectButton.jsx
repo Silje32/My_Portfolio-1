@@ -12,6 +12,7 @@ function ProjectButton() {
       >
         <Link
           to={"https://master--semesterproject1-community-museum.netlify.app"}
+          className={styles.buttonlink}
         >
           Go To Website
         </Link>

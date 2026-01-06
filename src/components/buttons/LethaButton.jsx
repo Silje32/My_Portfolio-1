@@ -10,7 +10,10 @@ function LethaButton() {
         className={styles.lethabutton}
         onClick={(event) => onButtonClick()}
       >
-        <Link to={"https://master--lethashoes.netlify.app/"}>
+        <Link
+          to={"https://master--lethashoes.netlify.app/"}
+          className={styles.buttonlink}
+        >
           Go To Website
         </Link>
       </button>

@@ -69,3 +69,8 @@
   opacity: 0.9;
   transform: scale(0.98);
 }
+
+.buttonlink {
+  text-decoration: none;
+  color: var(--white);
+}

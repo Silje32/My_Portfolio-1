@@ -8,7 +8,10 @@ function ExamButton() {
         className={styles.exambutton}
         onClick={(event) => onButtonClick()}
       >
-        <Link to={"https://master--exam1-spacex.netlify.app"}>
+        <Link
+          to={"https://master--exam1-spacex.netlify.app"}
+          className={styles.buttonlink}
+        >
           Go To Website
         </Link>
       </button>
