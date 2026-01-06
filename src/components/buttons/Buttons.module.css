@@ -9,13 +9,8 @@
   background-color: var(--background-color-btn);
 }
 
-a {
-  text-decoration: none;
-  color: var(--white);
-}
-
-a:hover {
-  background-color: var (--color-hover);
+.button:hover {
+  background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
 }
@@ -32,15 +27,10 @@ a:hover {
   background-color: var(--background-color-btn);
 }
 
-&:hover {
+.exambutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
-}
-
-a {
-  text-decoration: none;
-  color: var(--white);
 }
 
 .lethabutton {
@@ -55,15 +45,10 @@ a {
   background-color: var(--background-color-btn);
 }
 
-&:hover {
+.lethabutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
-}
-
-a {
-  text-decoration: none;
-  color: var(--white);
 }
 
 .projectbutton {
@@ -79,13 +64,8 @@ a {
   background-color: var(--background-color-btn);
 }
 
-&:hover {
+.projectbutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
-}
-
-a {
-  text-decoration: none;
-  color: var(--white);
 }
