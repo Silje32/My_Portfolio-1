@@ -6,7 +6,7 @@ function NodeCard() {
     <>
       <div className={styles.NodeCard}>
         <div>
-          <h2 className={styles.heading}>MOVIE REVIEW API:</h2>
+          <h2 className="h2">MOVIE REVIEW API:</h2>
         </div>
         <div>
           <p>

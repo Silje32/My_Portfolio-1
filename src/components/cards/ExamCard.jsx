@@ -8,7 +8,7 @@ function ExamCard() {
     <>
       <div className={styles.ExamCard}>
         <div>
-          <h2 className={styles.heading}>PROJECT EXAM 1:</h2>
+          <h2 className="h2">PROJECT EXAM 1:</h2>
         </div>
         <div>
           <img src={Screenshot} alt="Screenshot" />

@@ -5,7 +5,7 @@ function NextCard() {
     <>
       <div className={styles.NextCard}>
         <div>
-          <h2 className={styles.heading}>NEXT.JS PROJECT</h2>
+          <h2 className="h2">NEXT.JS PROJECT</h2>
         </div>
         <div>
           <p>My First Next.js Project.</p>

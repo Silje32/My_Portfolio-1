@@ -6,7 +6,7 @@ function CsharpCard() {
     <>
       <div className={styles.CsharpCard}>
         <div>
-          <h2 className={styles.heading}>MY FIRST LIBRARY:</h2>
+          <h2 className="h2">MY FIRST LIBRARY:</h2>
         </div>
         <div>
           <p>

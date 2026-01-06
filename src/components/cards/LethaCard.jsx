@@ -8,7 +8,7 @@ function LethaCard() {
     <>
       <div className={styles.LethaCard}>
         <div>
-          <h2 className={styles.heading}>INTERACTION DESIGN CA:</h2>
+          <h2 className="h2">INTERACTION DESIGN CA:</h2>
         </div>
         <div>
           <img src={Screenshot} alt="Screenshot" />

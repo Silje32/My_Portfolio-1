@@ -8,7 +8,7 @@ function SemesterProjectCard() {
     <>
       <div className={styles.SemesterProjectCard}>
         <div>
-          <h2 className={styles.heading}>SEMESTER PROJECT 1:</h2>
+          <h2 className="h2">SEMESTER PROJECT 1:</h2>
         </div>
         <div>
           <img src={Screenshot} alt="Screenshot" />
