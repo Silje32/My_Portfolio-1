@@ -65,24 +65,10 @@ img {
 .link {
   font-size: 18px;
   margin: 15px 5px;
-}
-
-a {
   color: var(--background-color-btn);
+  text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   color: var(--hover-color);
-}
-
-.heading {
-  color: var(--black);
-  padding: 5px;
-  font-family: "haboro-serif", "serif";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  text-align: center;
 }
