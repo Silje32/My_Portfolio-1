@@ -3,11 +3,9 @@
   font-family: "haboro-serif", "serif";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  flex-grow: 0;
-  flex-shrink: 0;
+  font-size: 35px;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 :global(.h2) {
