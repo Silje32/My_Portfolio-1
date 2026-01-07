@@ -7,7 +7,7 @@ function LethaButton() {
   return (
     <>
       <button
-        className={styles.lethabutton}
+        className={`${styles.mybutton} ${styles.lethabutton}`}
         onClick={(event) => onButtonClick()}
       >
         <Link

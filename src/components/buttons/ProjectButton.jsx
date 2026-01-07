@@ -7,7 +7,7 @@ function ProjectButton() {
   return (
     <>
       <button
-        className={styles.projectbutton}
+        className={`${styles.mybutton} ${styles.projectbutton}`}
         onClick={(event) => onButtonClick()}
       >
         <Link

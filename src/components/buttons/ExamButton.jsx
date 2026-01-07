@@ -5,7 +5,7 @@ function ExamButton() {
   return (
     <>
       <button
-        className={styles.exambutton}
+        className={`${styles.mybutton} ${styles.exambutton}`}
         onClick={(event) => onButtonClick()}
       >
         <Link

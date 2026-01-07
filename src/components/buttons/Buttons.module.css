@@ -1,28 +1,22 @@
-.button {
+.mybutton {
+  padding: 20px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   font-weight: normal;
   font-style: normal;
-  padding: 10px 20px;
   font-size: 22px;
   min-width: 200px;
-  cursor: pointer;
-  color: var(--white);
-  background-color: var(--background-color-btn);
 }
 
-.button:hover {
+.mybutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
 }
 
 .exambutton {
-  font-weight: normal;
-  font-style: normal;
-  padding: 20px 15px;
-  font-size: 22px;
-  min-width: 200px;
   margin-top: 10px;
-  cursor: pointer;
   color: var(--white);
   background-color: var(--background-color-btn);
 }
@@ -34,13 +28,7 @@
 }
 
 .lethabutton {
-  font-weight: normal;
-  font-style: normal;
-  padding: 20px 15px;
-  font-size: 22px;
-  min-width: 200px;
   margin-top: 10px;
-  cursor: pointer;
   color: var(--white);
   background-color: var(--background-color-btn);
 }
@@ -52,14 +40,7 @@
 }
 
 .projectbutton {
-  font-weight: normal;
-  font-style: normal;
-  padding: 20px 15px;
-  font-size: 22px;
-  min-width: 200px;
   margin-top: 10px;
-  cursor: pointer;
-  border-color: var(--black);
   color: var(--white);
   background-color: var(--background-color-btn);
 }
