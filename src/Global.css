@@ -19,7 +19,5 @@
 body {
   font-family: var(--font-family);
   font-size: var(--font-size);
-  background-color: var(--white);
-  color: var(--dark-beige);
-  flex-grow: 1;
+  background-color: var(--background-color);
 }
