@@ -1,13 +1,9 @@
-import ExamCard from "../components/cards/ExamCard";
-import SemesterProjectCard from "../components/cards/SemesterProjectCard";
-import LethaCard from "../components/cards/LethaCard";
+import MyFrontendCard from "../components/cards/MyFrontendCard.jsx";
 
 function Frontend() {
   return (
     <>
-      <ExamCard />
-      <SemesterProjectCard />
-      <LethaCard />
+      <MyFrontendCard />
     </>
   );
 }

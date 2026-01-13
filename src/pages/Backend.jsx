@@ -1,13 +1,9 @@
-import NodeCard from "../components/cards/NodeCard";
-import NextCard from "../components/cards/NextCard";
-import CsharpCard from "../components/cards/CsharpCard";
+import MyBackendCard from "../components/cards/MyBackendCard.jsx";
 
 function Backend() {
   return (
     <>
-      <NodeCard />
-      <NextCard />
-      <CsharpCard />
+      <MyBackendCard />
     </>
   );
 }
