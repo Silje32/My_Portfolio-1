@@ -16,8 +16,7 @@ nav {
   background-color: var(--black);
   display: flex;
   justify-content: center;
-  gap: 50px;
   cursor: pointer;
   padding: 25px 10px;
-  min-width: 1470px;
+  width: 1837px;
 }
