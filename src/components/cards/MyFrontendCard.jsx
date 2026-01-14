@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import Screenshot1 from "../../images/website_project-exam.png";
 import Screenshot2 from "../../images/website_semester-project1.png";
+import Screenshot3 from "../../images/website_letha.png";
 import ExamButton from "../buttons/ExamButton";
 import ProjectButton from "../buttons/ProjectButton";
+import LethaButton from "../buttons/LethaButton";
 import styles from "./StyledCard.module.css";
 
 function MyFrontendCard() {
@@ -68,7 +70,30 @@ function MyFrontendCard() {
       <div>
         <ProjectButton />
       </div>
-      <div className={styles.item}>Interaction Design CA</div>
+      <div className={"${styles.item} ${styles.LethaCard }"}>
+        Interaction Design CA
+      </div>
+      <div>
+        <h2 className="h2">INTERACTION DESIGN CA:</h2>
+      </div>
+      <div>
+        <img src={Screenshot3} alt="Screenshot" />
+      </div>
+      <div>
+        <p>
+          Create the final version of the Letha website and upload it to your
+          web host.
+        </p>
+      </div>
+      <Link
+        className={styles.link}
+        to={"https://github.com/Silje32/Leatha_CA.git"}
+      >
+        VIEW GITHUB REPOSITORY
+      </Link>
+      <div>
+        <LethaButton />
+      </div>
     </div>
   );
 }
