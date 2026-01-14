@@ -20,4 +20,5 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size);
   background-color: var(--background-color);
+  height: 1000px;
 }
