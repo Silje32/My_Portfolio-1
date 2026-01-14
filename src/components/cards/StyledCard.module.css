@@ -1,18 +1,7 @@
 .Card {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
   background-color: var(--background-color-card);
   border-radius: 5px;
   padding: 60px;
-}
-
-.ExamCard .NodeCard {
-  background-color: var(--background-color-card);
-  border-radius: 5px;
-  border-color: 2px var(--black);
-  height: 9000px;
 }
 
 img {
@@ -20,23 +9,10 @@ img {
   margin-bottom: 10px;
 }
 
-.LethaCard .CsharpCard {
-  background-color: var(--background-color-card);
-  border-radius: 5px;
-  border-color: 2px var(--black);
-  height: 9000px;
-}
-
-.SemesterProjectCard .NextCard {
-  background-color: var(--background-color-card);
-  border-radius: 5px;
-  border-color: 2px var(--black);
-  height: 9000px;
-}
-
 .link {
   font-size: 18px;
   margin: 15px 5px;
+  width: 500px;
   color: var(--background-color-btn);
   text-decoration: none;
 }
@@ -50,11 +26,14 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 700px;
+  width: 800px;
 }
 
 .item {
   flex: 1;
   padding: 10px;
+  width: 400px;
 }
 
 p {
