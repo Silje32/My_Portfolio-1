@@ -12,10 +12,11 @@
   background-color: var(--background-color-card);
   border-radius: 5px;
   border-color: 2px var(--black);
+  height: 9000px;
 }
 
 img {
-  width: 30%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -23,18 +24,14 @@ img {
   background-color: var(--background-color-card);
   border-radius: 5px;
   border-color: 2px var(--black);
-  padding: 60px;
-  max-width: 500px;
-  height: 600px;
+  height: 9000px;
 }
 
 .SemesterProjectCard .NextCard {
   background-color: var(--background-color-card);
   border-radius: 5px;
   border-color: 2px var(--black);
-  padding: 60px;
-  max-width: 500px;
-  height: 900px;
+  height: 9000px;
 }
 
 .link {
