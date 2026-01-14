@@ -19,6 +19,7 @@ function MyFrontendCard() {
         <div>
           <img src={Screenshot1} alt="Screenshot" />
         </div>
+
         <div>
           <p>
             Create a microsite for SpaceX / NASA that focuses on space
@@ -36,14 +37,17 @@ function MyFrontendCard() {
           <ExamButton />
         </div>
       </div>
+
       <div>
         <div className={"${styles.item} ${styles.Card}"}></div>
         <div>
           <h2 className="h2">SEMESTER PROJECT 1:</h2>
         </div>
+
         <div>
           <img src={Screenshot2} alt="Screenshot" />
         </div>
+
         <div>
           <p>
             An interactive science museum called the Community Science Museum is
@@ -68,14 +72,17 @@ function MyFrontendCard() {
           <ProjectButton />
         </div>
       </div>
+
       <div>
         <div className={"${styles.item} ${styles.Card}"}></div>
         <div>
           <h2 className="h2">INTERACTION DESIGN CA:</h2>
         </div>
+
         <div>
           <img src={Screenshot3} alt="Screenshot" />
         </div>
+
         <div>
           <p>
             Create the final version of the Letha website and upload it to your
