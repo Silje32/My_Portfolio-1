@@ -3,9 +3,9 @@
   font-family: "haboro-serif", "serif";
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 20px;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
 }
 
 :global(.h2) {
@@ -15,8 +15,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  flex-grow: 0;
-  flex-shrink: 0;
   text-align: center;
 }
 .container {
