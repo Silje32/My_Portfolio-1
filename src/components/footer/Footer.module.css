@@ -1,7 +1,7 @@
 footer {
   color: white;
   background-color: var(--black);
-  font-family: haboro-serif, serif;
+  font-family: "haboro-serif", "serif";
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
