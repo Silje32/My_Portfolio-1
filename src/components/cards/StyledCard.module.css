@@ -15,8 +15,12 @@ img {
   text-decoration: none;
 }
 
+.link:visited {
+  color: var(--color-hover);
+}
+
 .link:hover {
-  color: var(--hover-color);
+  color: var(--color-hover);
 }
 
 .container {
