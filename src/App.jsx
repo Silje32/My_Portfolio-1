@@ -7,12 +7,10 @@ import "./Global.css";
 function App() {
   return (
     <>
-      <div>
-        <Nav />
-        <Header />
-        <Outlet />
-        <Footer />
-      </div>
+      <Nav />
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
 }
