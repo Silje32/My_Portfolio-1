@@ -10,8 +10,7 @@ import styles from "./StyledCard.module.css";
 function MyFrontendCard() {
   return (
     <div className={styles.container}>
-      <div>
-        <div className={"${styles.item} ${styles.Card}"}></div>
+      <div className={`${styles.item} ${styles.Card}`}>
         <div>
           <h2 className="h2">PROJECT EXAM 1:</h2>
         </div>
@@ -38,8 +37,7 @@ function MyFrontendCard() {
         </div>
       </div>
 
-      <div>
-        <div className={"${styles.item} ${styles.Card}"}></div>
+      <div className={`${styles.item} ${styles.Card}`}>
         <div>
           <h2 className="h2">SEMESTER PROJECT 1:</h2>
         </div>
@@ -73,8 +71,7 @@ function MyFrontendCard() {
         </div>
       </div>
 
-      <div>
-        <div className={"${styles.item} ${styles.Card}"}></div>
+      <div className={`${styles.item} ${styles.Card}`}>
         <div>
           <h2 className="h2">INTERACTION DESIGN CA:</h2>
         </div>
