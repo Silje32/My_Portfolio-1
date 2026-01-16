@@ -7,7 +7,10 @@ function MyBackendCard() {
       <div className={styles.container}>
         <div className={`${styles.item} ${styles.Card}`}>
           <div>
-            <h2 className="h2">MOVIE REVIEW API:</h2>
+            <h2 className="h2">NODE PROJECT</h2>
+          </div>
+          <div>
+            <h2 className="h3">Movie Review Api:</h2>
           </div>
           <div>
             <p>
@@ -25,7 +28,10 @@ function MyBackendCard() {
 
         <div className={`${styles.item} ${styles.Card}`}>
           <div>
-            <h2 className="h2">MY FIRST LIBRARY:</h2>
+            <h2 className="h2">C# PROJECT</h2>
+          </div>
+          <div>
+            <h2 className="h3">My First Library:</h2>
           </div>
           <div>
             <p>
