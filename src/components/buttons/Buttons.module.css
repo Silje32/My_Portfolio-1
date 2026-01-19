@@ -27,13 +27,13 @@
   transform: scale(0.98);
 }
 
-.lethabutton {
+.pokebutton {
   margin-top: 10px;
   color: var(--white);
   background-color: var(--background-color-btn);
 }
 
-.lethabutton:hover {
+.pokebutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);

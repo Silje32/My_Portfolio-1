@@ -8,11 +8,11 @@ function LethaButton() {
     <>
       <div className={styles.buttoncontainer}>
         <button
-          className={`${styles.mybutton} ${styles.lethabutton}`}
+          className={`${styles.mybutton} ${styles.pokebutton}`}
           onClick={(event) => onButtonClick()}
         >
           <Link
-            to={"https://master--lethashoes.netlify.app/"}
+            to={"https://silje32.github.io/Pokedex-Api/"}
             className={styles.buttonlink}
           >
             Go To Website
