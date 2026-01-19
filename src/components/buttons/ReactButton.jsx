@@ -12,7 +12,7 @@ function ReactButton() {
           onClick={(event) => onButtonClick()}
         >
           <Link
-            to={"https://github.com/Silje32/CatFacts.git"}
+            to={"https://cat-facts-one-ashen.vercel.app/"}
             className={styles.buttonlink}
           >
             Go To Website
