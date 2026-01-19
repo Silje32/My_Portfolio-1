@@ -15,7 +15,7 @@
   transform: scale(0.98);
 }
 
-.exambutton {
+.dombutton {
   margin-top: 10px;
   color: var(--white);
   background-color: var(--background-color-btn);
