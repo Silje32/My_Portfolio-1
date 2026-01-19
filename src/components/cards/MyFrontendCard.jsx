@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Screenshot1 from "../../images/website_project-exam.png";
+import Screenshot1 from "../../images/website-dom-manipulation.png";
 import Screenshot2 from "../../images/website_semester-project1.png";
 import Screenshot3 from "../../images/website_letha.png";
-import ExamButton from "../buttons/ExamButton";
+import DomButton from "../buttons/DomButton";
 import ProjectButton from "../buttons/ProjectButton";
 import LethaButton from "../buttons/LethaButton";
 import styles from "./StyledCard.module.css";
@@ -12,7 +12,10 @@ function MyFrontendCard() {
     <div className={styles.container}>
       <div className={`${styles.item} ${styles.Card}`}>
         <div>
-          <h2 className="h2">PROJECT EXAM 1:</h2>
+          <h2 className="h2">DOM MANIPULATION</h2>
+        </div>
+        <div>
+          <h2 className="h2">JavaScript Basic Oppgave 4</h2>
         </div>
 
         <div>
@@ -21,19 +24,18 @@ function MyFrontendCard() {
 
         <div>
           <p>
-            Create a microsite for SpaceX / NASA that focuses on space
-            technology to raise awareness about space program activity around
-            the world.
+            Use DOM manipulation to change content on the page. Begin with one
+            function and keep building.
           </p>
         </div>
         <Link
           className={styles.link}
-          to={"https://github.com/Silje32/Project_Exam_SpaceX"}
+          to={"https://github.com/Silje32/Javascript_basic_oppgave_4.git"}
         >
           VIEW GITHUB REPOSITORY
         </Link>
         <div>
-          <ExamButton />
+          <DomButton />
         </div>
       </div>
 
