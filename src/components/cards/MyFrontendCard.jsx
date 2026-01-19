@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import Screenshot1 from "../../images/website-dom-manipulation.png";
 import Screenshot2 from "../../images/website-catfacts.png";
-import Screenshot3 from "../../images/website_letha.png";
+import Screenshot3 from "../../images/website-pokedex.png";
 import DomButton from "../buttons/DomButton";
 import ReactButton from "../buttons/ReactButton";
-import LethaButton from "../buttons/LethaButton";
+import PokedexButton from "../buttons/PokedexButton";
 import styles from "./StyledCard.module.css";
 
 function MyFrontendCard() {
@@ -15,7 +15,7 @@ function MyFrontendCard() {
           <h2 className="h2">DOM MANIPULATION</h2>
         </div>
         <div>
-          <h2 className="h2">JavaScript Basic Oppgave 4</h2>
+          <h2 className="h2">JavaScript Basic</h2>
         </div>
 
         <div>
@@ -66,7 +66,10 @@ function MyFrontendCard() {
 
       <div className={`${styles.item} ${styles.Card}`}>
         <div>
-          <h2 className="h2">INTERACTION DESIGN CA:</h2>
+          <h2 className="h2">VANILLA JAVASCRIPT OG FIGMA:</h2>
+        </div>
+        <div>
+          <h2 className="h2">Pokedex</h2>
         </div>
 
         <div>
@@ -86,7 +89,7 @@ function MyFrontendCard() {
           VIEW GITHUB REPOSITORY
         </Link>
         <div>
-          <LethaButton />
+          <PokedexButton />
         </div>
       </div>
     </div>
