@@ -21,7 +21,7 @@
   background-color: var(--background-color-btn);
 }
 
-.exambutton:hover {
+.dombutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
@@ -39,13 +39,13 @@
   transform: scale(0.98);
 }
 
-.projectbutton {
+.reactbutton {
   margin-top: 10px;
   color: var(--white);
   background-color: var(--background-color-btn);
 }
 
-.projectbutton:hover {
+.reactbutton:hover {
   background-color: var(--color-hover);
   opacity: 0.9;
   transform: scale(0.98);
