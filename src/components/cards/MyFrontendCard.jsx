@@ -66,7 +66,7 @@ function MyFrontendCard() {
 
       <div className={`${styles.item} ${styles.Card}`}>
         <div>
-          <h2 className="h2">VANILLA JAVASCRIPT OG FIGMA:</h2>
+          <h2 className="h2">VANILLA JAVASCRIPT AND FIGMA</h2>
         </div>
         <div>
           <h2 className="h2">Pokedex</h2>
@@ -78,13 +78,14 @@ function MyFrontendCard() {
 
         <div>
           <p>
-            Create the final version of the Letha website and upload it to your
-            web host.
+            A Pokedex website that uses an external API to fetch data about
+            various Pokémon. The website is built using Vanilla JavaScript and
+            the design is made in Figma.
           </p>
         </div>
         <Link
           className={styles.link}
-          to={"https://github.com/Silje32/Leatha_CA.git"}
+          to={"https://github.com/Silje32/Pokedex-Api.git"}
         >
           VIEW GITHUB REPOSITORY
         </Link>
