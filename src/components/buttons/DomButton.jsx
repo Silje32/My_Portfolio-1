@@ -11,7 +11,7 @@ function DomButton() {
           onClick={(event) => onButtonClick()}
         >
           <Link
-            to={"https://github.com/Silje32/Javascript_basic_oppgave_4.git"}
+            to={"https://silje32.github.io/Javascript_basic_oppgave_4/"}
             className={styles.buttonlink}
           >
             Go To Website
