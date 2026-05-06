@@ -68,9 +68,6 @@ function MyFrontendCard() {
         <div>
           <h2 className="h2">VANILLA JAVASCRIPT AND FIGMA</h2>
         </div>
-        <div>
-          <h2 className="h2">Pokedex</h2>
-        </div>
 
         <div>
           <img src={Screenshot3} alt="Screenshot" />
