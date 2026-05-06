@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Screenshot1 from "../../images/website-dom-manipulation.png";
-import Screenshot2 from "../../images/website-catfacts.png";
+import Screenshot2 from "../../images/website-gutendex.png";
 import Screenshot3 from "../../images/website-pokedex.png";
 import DomButton from "../buttons/DomButton";
 import ReactButton from "../buttons/ReactButton";
@@ -49,13 +49,13 @@ function MyFrontendCard() {
         </div>
         <div>
           <p>
-            Make a component that fetches and displays random cat facts from an
-            API.
+            Let users search and explore a collection of books from an API. Let
+            them add favorites to a favorites list.
           </p>
         </div>
         <Link
           className={styles.link}
-          to={"https://github.com/Silje32/CatFacts.git"}
+          to={"https://github.com/Silje32/Gutendex.git"}
         >
           VIEW GITHUB REPOSITORY
         </Link>
