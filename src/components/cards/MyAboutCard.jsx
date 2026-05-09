@@ -25,6 +25,21 @@ function MyAboutCard() {
           </p>
         </div>
       </div>
+
+      <div className={`${styles.item} ${styles.Card}`}>
+        <div>
+          <h2 className="h2">MY HOBBIES</h2>
+          <ul>
+            <li>Swimming</li>
+            <li>Dancing</li>
+            <li>Going to the cinema</li>
+            <li>Hiking</li>
+            <li>Playing board games</li>
+            <li>Going for walks</li>
+            <li>Sci-fi and Fantasy movies</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
