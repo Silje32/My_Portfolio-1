@@ -7,6 +7,7 @@ function MyAboutCard() {
         <h2>Hi!</h2>
         <p>I´m Silje Heldal Monsen.</p>
         <p>I´m a fullstack developer who can turn your ideas into reality.</p>
+        <p>I LOVE life and everything it has to offer me.</p>
       </div>
 
       <div className={`${styles.item} ${styles.Card}`}>
