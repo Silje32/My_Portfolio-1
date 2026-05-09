@@ -11,6 +11,9 @@ function Nav() {
         <Link to="/backend" className={styles.navlink}>
           Backend Projects
         </Link>
+        <Link to="/about" className={styles.navlink}>
+          About Me
+        </Link>
       </nav>
     </>
   );
