@@ -20,7 +20,7 @@ img {
 }
 
 .link:hover {
-  color: var(--color-hover);
+  color: var(--black);
 }
 
 .container {
