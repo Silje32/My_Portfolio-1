@@ -16,7 +16,7 @@ img {
 }
 
 .link:visited {
-  color: var(--steel);
+  color: var(--black);
 }
 
 .link:hover {
