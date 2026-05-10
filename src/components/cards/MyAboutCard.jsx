@@ -8,6 +8,13 @@ function MyAboutCard() {
         <p>I´m Silje Heldal Monsen.</p>
         <p>I´m a fullstack developer who can turn your ideas into reality.</p>
         <p>I LOVE life and everything it has to offer me.</p>
+        <p>At the age of 18, I built my own computer.</p>
+        <p>
+          In my twenties, I experimented with Linux and went to Linux meetings
+          in Bergen "BLUG".{" "}
+        </p>
+        <p>I have even tried out the Linux cellphone "Sailfish".</p>
+        <p>Today, I am a big Mac fan! </p>
       </div>
 
       <div className={`${styles.item} ${styles.Card}`}>
