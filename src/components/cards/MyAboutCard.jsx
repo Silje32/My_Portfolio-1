@@ -43,6 +43,7 @@ function MyAboutCard() {
             <li>Going to the cinema</li>
             <li>Hiking</li>
             <li>Playing board games</li>
+            <li>Playing strategy games on the computer</li>
             <li>Going for walks</li>
             <li>Sci-fi and Fantasy movies</li>
           </ul>
