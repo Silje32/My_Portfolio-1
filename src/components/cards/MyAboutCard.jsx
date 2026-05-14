@@ -22,11 +22,13 @@ function MyAboutCard() {
           <h2 className="h2">MY SKILLS</h2>
           <p>I have experience in both frontend and backend development.</p>
           <p>
-            I have worked with HTML, CSS, JavaScript, DOM Manipulation, React +
-            Vite, Node.js, Node Express, CSS modules, Figma, SQL, SQLite, DB
-            Browser for SQLite, SQLite3 editor in Visual Studio Code,
-            ThunderClient, Visual Studio Code, GitHub, Git, GitHub pages,
-            Netlify and Vercel.
+            Frontend: I have worked with HTML, CSS, JavaScript, DOM
+            Manipulation, React + Vite, CSS modules, Figma, Visual Studio Code,
+            GitHub, Git, GitHub pages, Netlify and Vercel.
+          </p>
+          <p>
+            Backend: Node.js, Node Express, SQL, SQLite, DB Browser for SQLite,
+            SQLite3 editor in Visual Studio Code, Miro and ThunderClient.
           </p>
           <p>
             I LOVE to write in the terminal and I can promise you MANY commits!
